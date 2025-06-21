@@ -1,6 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -8,7 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-        int index = 0;
         int x,y,z;
 
         int array[] = new int[num1];
